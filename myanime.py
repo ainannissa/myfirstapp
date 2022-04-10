@@ -151,38 +151,38 @@ if  values==1:
     
 
 elif values==2:
-     rslt_df_1 = rslt_df.loc[rslt_df['Year'] == 2]
+     rslt_df_1 = rslt_df.loc[rslt_df['Score'] == 2]
      
 
 elif values==3:
-     rslt_df_1 = rslt_df.loc[rslt_df['Year'] == 3]
+     rslt_df_1 = rslt_df.loc[rslt_df['Score'] == 3]
      
 
 elif values==4:
-     rslt_df_1 = rslt_df.loc[rslt_df['Year'] == 4]
+     rslt_df_1 = rslt_df.loc[rslt_df['Score'] == 4]
      
 
 elif values==5:
-     rslt_df_1 = rslt_df.loc[rslt_df['Year'] == 5]
+     rslt_df_1 = rslt_df.loc[rslt_df['Score'] == 5]
         
 
 elif values==6:
-     rslt_df_1 = rslt_df.loc[rslt_df['Year'] == 6]
+     rslt_df_1 = rslt_df.loc[rslt_df['Score'] == 6]
      
 
 elif values==7:
-     rslt_df_1 = rslt_df.loc[rslt_df['Year'] == 7]
+     rslt_df_1 = rslt_df.loc[rslt_df['Score'] == 7]
      
 
 elif values==8:
-     rslt_df_1 = rslt_df.loc[rslt_df['Year'] == 8]
+     rslt_df_1 = rslt_df.loc[rslt_df['Score'] == 8]
      
 
 elif values==9:
-     rslt_df_1 = rslt_df.loc[rslt_df['Year'] == 9]    
+     rslt_df_1 = rslt_df.loc[rslt_df['Score'] == 9]    
 
 else:
-    rslt_df_1 = rslt_df.loc[rslt_df['Year'] == 10]
+    rslt_df_1 = rslt_df.loc[rslt_df['Score'] == 10]
     st.dataframe(rslt_df_1)
 
 
