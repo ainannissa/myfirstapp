@@ -187,12 +187,11 @@ else:
 
 
 
-
 #Rating
 
 option = st.sidebar.selectbox(
     'Select Rating',
-    ['R - 17+ (violence & profanity)',	'PG-13 - Teens 13 or older'	,'PG - Children',	'G - All Ages']
+    ['R - 17+ (violence & profanity)',	'PG-13 - Teens 13 or older'	,'PG - Children',	'G - All Ages'])
 
 
 
