@@ -15,7 +15,7 @@ st.balloons()
 df = pd.read_csv('newanime.csv')
 df = df.dropna(axis = 0, how ='any')
 df = df.astype({"Score": int})
-df = df.astype({"Episodes": int})
+df = df.astype({"Episodes": string})
 #st.dataframe(df)
 
 
