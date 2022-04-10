@@ -12,7 +12,7 @@ This web app simply recommends some Anime for the user according to their prefer
 
 st.balloons()
 
-df = pd.read_csv('newanime.csv')
+df = pd.read_csv('animeee.csv')
 df = df.dropna(axis = 0, how ='any')
 df = df.astype({"Score": int})
 df = df.astype({"Episodes": int})
