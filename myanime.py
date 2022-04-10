@@ -3,11 +3,11 @@ import numpy as np
 import pandas as pd
 
 
-st.title("Movie/TV Show Recommendation App ✨")
+st.title("Anime Recommendation App ✨")
 
 st.markdown("""
-This web app simply recommend some Movie or TV Show for the user according to their preferences. Hope enjoy my simple web app!!
-* **Data Source:** [Netflix-Movies-and-TV-Shows.kaggle](https://www.kaggle.com/satpreetmakhija/netflix-movies-and-tv-shows-2021)
+This web app simply recommends some Anime for the user according to their preferences. Hope it helps!
+* **Data Source:** [Anime-recommendation.kaggle](https://www.kaggle.com/datasets/hernan4444/anime-recommendation-database-2020)
 """ )
 
 st.balloons()
@@ -20,7 +20,7 @@ df = df.astype({"Episodes": int})
 
 
 
-st.sidebar. write('Prepared by : Fatin Arisya Binti Azhar')
+st.sidebar. write('Prepared by : Ain Nur Annissa Binti Ghazali')
 
 
 
